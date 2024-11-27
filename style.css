@@ -1,24 +1,23 @@
 body {
     background-color: #f7d02a !important;
-    height: 1100px;
+    height: 700px;
 }
 
 a {
-    color: inherit; /* Usa a cor do elemento pai */
-    text-decoration: none; /* Remove o sublinhado */
-  }
+    color: white; 
+    text-decoration: none; 
+}
   
   a:visited {
-    color: inherit; /* Remove a cor roxa dos links visitados */
+    color: white; 
   }
-  
   a:hover {
-    color: inherit; /* Mantém a cor ao passar o mouse */
-    text-decoration: none; /* Evita sublinhado no hover */
+    color: white; 
+    text-decoration: none; 
   }
   
   a:active {
-    color: inherit; /* Remove cor ao clicar */
+    color: white; 
   }
 
 .navbar .container-fluid  {
