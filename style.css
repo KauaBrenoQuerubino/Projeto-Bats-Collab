@@ -1,7 +1,25 @@
 body {
     background-color: #f7d02a !important;
-    height: 3000px;
+    height: 1100px;
 }
+
+a {
+    color: inherit; /* Usa a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  a:visited {
+    color: inherit; /* Remove a cor roxa dos links visitados */
+  }
+  
+  a:hover {
+    color: inherit; /* Mantém a cor ao passar o mouse */
+    text-decoration: none; /* Evita sublinhado no hover */
+  }
+  
+  a:active {
+    color: inherit; /* Remove cor ao clicar */
+  }
 
 .navbar .container-fluid  {
     width: 95%;
@@ -301,7 +319,7 @@ h1 {
 
 .ComoPodemos {
     background-color: black;
-    height: 500px;
+    height: 100%;
 }
 
 .ComoPodemos .container {
@@ -360,11 +378,18 @@ h1 {
     cursor: pointer;
 }
 
-.ComoPodemos .container .form .form-select {
+.ComoPodemos .container .form .select {
     border: none;
     color: white;
     background-color: black;
+    border-radius: 5px;
     width: 100%;
     height: 30px;
     font-size: 11px;
 }
+
+.icons{
+    color: white;
+}
+
+
