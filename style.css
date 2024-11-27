@@ -1,0 +1,370 @@
+body {
+    background-color: #f7d02a !important;
+    height: 3000px;
+}
+
+.navbar .container-fluid  {
+    width: 95%;
+    
+}
+
+.navbar .container-fluid .navbar-brand .Logo {
+    height: 40px;
+}
+
+.navbar-toggler-ic {
+    background: none;
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+    position: relative;
+    
+  }
+  
+
+.line {
+    content: '';
+    display: block;
+    background-color: black; 
+    height: 4px; 
+    width: 100%; 
+    margin: 2px 0; 
+  }
+h1 {
+    font-family: 'Bangers-regular';
+}
+
+@font-face {
+    font-family: 'Bangers-regular';
+    src: url('/Fonts/Bangers-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/Fonts/FontAwesome.otf') format('Opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: url('/Fonts/Nunito-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('/Fonts/Nunito-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url('/Fonts/Nunito-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('/Fonts/Nunito-Regular.ttf') format('truetype');
+}
+.Destaque {
+    margin-top: 50px;
+}
+
+.Destaque .container{
+    background-image: url(/imagem/fundo.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Destaque .container .textoPrincipal {
+    padding: 7px;
+    font-family: 'Bangers-regular';
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Destaque .container .textoPrincipal h1{
+    font-size: 32px;
+}
+
+.Destaque .container .textoSecundario {
+    margin-top: 10px;
+    font-family: 'Nunito-Regular';
+    width: 90%;
+    text-align: center;
+}
+
+.Destaque .container .textoSecundario p {
+    font-weight:  500;
+}
+.Destaque .container .textoSecundario strong {
+    font-weight:  700;
+}
+
+.Destaque .container .Bonecos {    
+    margin-top: auto;
+}
+
+.Destaque .container .Bonecos img{
+    height: 150px;
+}
+
+.SobreNos {
+    background-color: azure;
+}
+
+.SobreNos .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.SobreNos .container .inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SobreNos .container .inicio h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.SobreNos .container img {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 180px;
+}
+
+.SobreNos .container .final {
+    font-family: 'Nunito-Regular';
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.SobreNos .container .final  h1 {
+    font-size: 17px;
+}
+
+.SobreNos .container .final p{
+    font-size: 15px;
+}
+
+.SobreNos .container .final button {
+    margin-top: 5px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #28A745;
+    color: white;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.SobreNos .container .navbar-toggler {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-toggler {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 50px; 
+    height: 20px; 
+  }
+
+.circle-escuro {
+    width: 10px; 
+    height: 10px;
+    background-color: #474747;
+    border-radius: 50%; 
+
+}
+  
+  .circle {
+    width: 8px; 
+    height: 8px;
+    background-color: #c5c4c4;
+    border-radius: 50%;
+    
+  }
+
+.QuemSomos{
+    background-color: black;
+}
+
+.QuemSomos .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.QuemSomos .container h1 {
+    color: #f7d02a;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.QuemSomos .container p {
+    font-family: 'Nunito-Regular';
+    font-size: 13px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.QuemSomos .container .circulos {
+    position:relative;
+    top: -30px;
+}
+
+.QuemSomos .container img{
+    height: 210px;
+    margin-bottom: 0;
+}
+
+.Clique{
+    background-color: transparent;
+    height: 170px;
+}
+
+.Clique .container{
+    font-family: 'Nunito-ExtraBold';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clique .container .text {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.Clique .container button{
+    margin-top: 5px;
+    border: none;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #28A745;
+    color: white;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.Portifolio {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.Portifolio .container h1{
+    color: #e5007e;
+}
+
+.Parceria {
+    background-color: #e5e7e6;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.Parceria .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.Parceria .container .imagem img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.ComoPodemos {
+    background-color: black;
+    height: 500px;
+}
+
+.ComoPodemos .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ComoPodemos .container .texto {
+    margin: 30px 0;
+    width: 350px;
+}
+
+.ComoPodemos .container .texto h1 {
+    color: #f7d02a;
+}
+
+.ComoPodemos .container .texto p {
+    font-family: 'Nunito-Regular';
+    color: white;
+}
+
+.ComoPodemos .container .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7d02a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    gap: 20px;
+    height: 260px;
+}
+
+.ComoPodemos .container .form input {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+}
+
+.ComoPodemos .container .form button {
+    font-family: 'Nunito-ExtraBold';
+    margin-top: 5px;
+    border: none;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: #28A745;
+    color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ComoPodemos .container .form .form-select {
+    border: none;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+}
