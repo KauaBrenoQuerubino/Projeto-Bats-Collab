@@ -80,6 +80,7 @@ h1 {
     font-family: 'Nunito-Regular';
     src: url('/Fonts/Nunito-Regular.ttf') format('truetype');
 }
+
 .Destaque {
     margin-top: 50px;
 }
@@ -153,7 +154,7 @@ h1 {
     font-size: 30px;
 }
 
-.SobreNos .container img {
+.SobreNos .container .inicio img {
     margin-top: 30px;
     margin-bottom: 10px;
     height: 180px;
@@ -206,13 +207,13 @@ h1 {
 
 }
   
-  .circle {
+.circle {
     width: 8px; 
     height: 8px;
     background-color: #c5c4c4;
     border-radius: 50%;
     
-  }
+}
 
 .QuemSomos{
     background-color: black;
@@ -311,7 +312,7 @@ h1 {
     
 }
 
-.Parceria .container .imagem img{
+.Parceria .container img{
     width: 350px;
     margin-bottom: 20px;
 }
@@ -389,6 +390,24 @@ h1 {
 
 .icons{
     color: white;
+}
+
+.espacoVazio{
+    content: ' ';
+    height: 50px;
+}
+.Bola {
+    border-radius: 80% !important;
+    height: 8px !important;
+    width: 8px !important;
+    background-color: rgb(209, 209, 209) !important;
+    
+}
+
+.carousel-indicators .active {
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #474747 !important;
 }
 
 
