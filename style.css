@@ -396,11 +396,17 @@ h1 {
     content: ' ';
     height: 50px;
 }
+
+.carousel-indicators {
+    align-items: center !important;
+}
+
 .Bola {
-    border-radius: 80% !important;
+    margin: 0 5px !important;
+    border-radius: 100% !important;
     height: 8px !important;
     width: 8px !important;
-    background-color: rgb(209, 209, 209) !important;
+    background-color: #c5c4c4 !important;
     
 }
 
